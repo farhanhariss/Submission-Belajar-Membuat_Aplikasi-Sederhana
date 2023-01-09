@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white_pastel"
+    tools:context=".AboutMe">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_pastel"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/tv_rechievedMyPhotos"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/farhan" />
+
+        <TextView
+            android:id="@+id/tv_rechievedMyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_saya"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_pastel"/>
+
+        <TextView
+            android:id="@+id/tv_rechievedMyEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_pastel"/>
+        </LinearLayout>
+</ScrollView>
